@@ -1,0 +1,342 @@
+.slider-box{
+  padding: 0 0 214px 0;
+  background-image: url("../images/prostok_t_4_1101.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-title-txt{
+  text-align: center;
+  padding: 43px 0 0 0;
+}
+.quality-has-price{
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #008ed6;
+}
+.pricings-plans{
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  color: #1a1a1a;
+  line-height: 35px;
+}
+.fourth-double-underline{
+  position: relative;
+  &:before{
+    content: "";
+    border-bottom: 3px solid #008ed6;
+    display: block;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    bottom: -29.5px;
+    right: 104px;
+  }
+  &:after{
+    content: "";
+    border-bottom: 3px solid #008ed6;
+    display: block;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    bottom: -29.5px;
+    right: 125px;
+  }
+}
+.slider-slides{
+  margin: 120px 0 0 93px;
+  display: flex;
+  flex-direction: row;
+}
+.the-slider{
+  max-width: 1440px;
+  width: 100%;
+  .slick-dots {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 46.52%;
+    margin: 317px 0 0 0;
+  }
+  .slick-dots li button {
+    position: relative;
+    border-radius: 25px;
+    border: none;
+    color: transparent;
+    margin: 3px 2px 0 2px;
+    padding: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #b3b3b3;
+  }
+  .slick-dots li button {
+    position: relative;
+    border-radius: 25px;
+    color: transparent;
+    margin: 3px 2px 0 2px;
+    padding: 0;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(255,255,255,0.0);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .slider .slick-dots {
+    justify-content: center;
+    align-items: center;
+    text-decoration: transparent;
+  }
+  .slick-dots{
+    .slick-active{
+      width: 14px;
+      height: 14px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      margin: -1px 14px 0 0;
+    }
+    li {
+      list-style: none;
+      margin: 1px 16.6px 0 0;
+    }
+  }
+  .slick-active {
+    button {
+      visibility: hidden;
+    }
+  }
+  .slick-list {
+    overflow: hidden;
+    width: 1170px;
+    margin: 0 0 0 22px;
+  }
+  .slick-track {
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+  }
+  .slick-slide {
+    margin: 0 0 0 18px;
+  }
+  .slick-list {
+    margin: 0 0 0 22px;
+  }
+}
+.slider-paragraph{
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 549px;
+  width: 101%;
+  font-style: italic;
+  padding: 0 0 23px 0;
+}
+.slider-authors-everything-box{
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 1px;
+}
+.slider-authors-name-box{
+  margin: -7px 0 0 25px;
+}
+.slider-author-full-name{
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.slider-job-title{
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.slider-google-man{
+  margin: -7px 0 0 -1px;
+}
+.like-what-u-see-box{
+  background-color: #15141a;
+  display: flex;
+  flex-direction: row;
+  .view-features-txt{
+    line-height: 48px;
+    padding: 0;
+  }
+  .ad-question{
+    font-size: 36px;
+    line-height: 48px;
+    color: #ffffff;
+    padding: 59px 0 63px 13px;
+  }
+}
+.like-what-u-see{
+  font-weight: 600;
+  letter-spacing: 0.17px;
+}
+.get-theme-now{
+  font-weight: 300;
+  letter-spacing: 0.05px;
+  margin: 0 6px 0 -7px;
+}
+.question-buttons-box{
+  display: flex;
+  margin: 60px 0 0 154px;
+  .download-now{
+    margin: 0 0 0 20px;
+    height: 49px;
+  }
+  .view-features{
+    width: 158px;
+    margin: 0 0 0 1px;
+  }
+}
+.prices-plans-box{
+  .slider-title-txt{
+    padding: 39px 0 0 0;
+  }
+  .pricings-plans{
+    color: #1a1a1a;
+  }
+}
+.prices-list-box{
+  display: flex;
+  padding: 2px 0 56px 0;
+  max-width: 1170px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.prices-item-free{
+  display: flex;
+  flex-direction: column;
+  margin: 103px 0 0 -2px;
+  padding: 0;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  max-width: 270px;
+}
+.prices-name{
+  display: block;
+  letter-spacing: -0.5px;
+  padding: 26px 0 23px 1px;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  border-bottom:1px solid #e0e0e0;
+}
+.per-month{
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #999999;
+}
+.per-month-box{
+  border-bottom:1px solid #e0e0e0;
+  padding: 53px 0 31px 1px;
+  margin: -1px 0 5px -1px;
+}
+.dollar-sign,.price-number{
+  line-height: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.dollar-sign{
+  font-size: 29px;
+  margin: -7px 0 -11px -7px;
+  padding: 0 0 37px 3px;
+}
+.price-number{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+.prices-description-paragraph,.lacinia{
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #999999;
+}
+.lacinia{
+  color: #008ed6;
+}
+.prices-description-paragraph{
+  padding: 40px 34px 40px 36px;
+}
+.order-now-its-self{
+  font-size: 14px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.prices-order-now-button{
+  max-width: 160px;
+  height: 50px;
+  margin: 0  auto 29px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.the-price-space1{
+  margin: 103px 29px 0 -2px;
+}
+.the-price-space2{
+  margin: 103px 31px 0 -2px;
+}
+.the-price-space3{
+  margin: 103px 30px 0 -2px;
+}
+.blue-order-now{
+  background-color: #008ed6;
+  color: #ffffff;
+}
+.blue-month-box{
+  padding: 53px 0 31px 1px;
+  margin: -1px 0 0 -1px;
+}
+.blue-paragraph{
+  padding: 45px 31px 40px 36px;
+}
+.price-business{
+  color: #008ed6;
+}
+.ultimate-alignment{
+  margin: 0 0 0 -2px;
+  letter-spacing: -0.3px;
+}
+.prices-description-paragraph2{
+  padding: 40px 28px 40px 36px;
+}
+.prices-description-paragraph4{
+  padding: 40px 31px 40px 36px;
+}
+.order-now-3{
+  margin: 1px 0 29px 56px;
+  width: 159px;
+  height: 48px;
+  border: 1px solid #008ed6;
+  .order-now-its-self{
+    padding: 0 1px 0 0;
+    line-height: 48px;
+  }
+}
+.block-2{
+  margin: 0 0 29px 57px;
+}
+.block-4{
+  margin: 0 0 29px 56px;
+}
+.order-now-its-self4{
+  margin: 0 0 0 -2px;
+}
+.pricing-white{
+  color: #ffffff;
+}
+#slick-slide00,#slick-slide02,#slick-slide04{
+  margin: 2px 21px 0 18px;
+}
+#slick-slide01,#slick-slide03,#slick-slide05{
+  margin: 2px 0 0 34px;
+}

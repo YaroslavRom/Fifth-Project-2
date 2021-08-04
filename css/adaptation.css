@@ -1,0 +1,307 @@
+@media (max-width: 1440px) {
+  .the-slider .slick-dots {
+    margin: 317px -14px 0 0;
+  }
+
+  .form-box {
+    width: 770px;
+  }
+}
+@media (max-width: 1292px) {
+  .beautiful-phone-images {
+    width: 443px;
+    margin: 0 0 -66px 78px;
+  }
+
+  .contact-item-box {
+    margin: 5px auto;
+  }
+
+  .contact-icons-box {
+    display: flex;
+    flex-direction: column;
+    margin: 59px 0 auto auto;
+  }
+  .contact-icons-box .mark-alignment, .contact-icons-box .mark-alignment2 {
+    padding: 0;
+  }
+
+  #slick-slide01, #slick-slide03, #slick-slide05 {
+    padding: 0 20px 0 0;
+  }
+
+  .question-buttons-box {
+    flex-direction: column;
+    margin: 32px 0 0 8px;
+  }
+  .question-buttons-box .download-now {
+    margin: 6px 0 6px 1px;
+  }
+}
+@media (max-width: 1214px) {
+  .header-menu-hidden {
+    margin: 0;
+  }
+
+  .navigation-menu-visible {
+    display: none;
+  }
+
+  .header_burger-menu {
+    display: block;
+    width: 42px;
+    height: 32px;
+    position: absolute;
+    z-index: 100;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    opacity: 80%;
+    border-radius: 4px;
+    margin: 11px 14px 19px 10px;
+    right: 16px;
+    top: 19px;
+    bottom: 19px;
+  }
+  .header_burger-menu:before {
+    top: 11px;
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 54%;
+    height: 2px;
+    left: 10px;
+    opacity: 0.8;
+  }
+  .header_burger-menu:after {
+    bottom: 11px;
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 54%;
+    height: 2px;
+    left: 10px;
+    opacity: 0.8;
+  }
+  .header_burger-menu .middle-burger-slice {
+    position: absolute;
+    background-color: #ffffff;
+    float: right;
+    left: 10px;
+    width: 54%;
+    height: 2px;
+    top: 15px;
+    opacity: 0.8;
+  }
+
+  .open-nav-icon:before, .open-nav-icon:after {
+    border-radius: 51px;
+    height: 3px;
+    opacity: 1;
+    background-color: aqua;
+    -webkit-transition: 0.25s ease-in-out, background;
+    cursor: pointer;
+  }
+  .open-nav-icon:after {
+    -webkit-transform: rotate(-135deg);
+    width: 57%;
+    bottom: 15px;
+  }
+  .open-nav-icon:before {
+    -webkit-transform: rotate(135deg);
+    top: 14px;
+  }
+  .open-nav-icon span {
+    display: none;
+  }
+}
+@media (max-width: 1170px) {
+  .up-botton-box {
+    margin: 54px 0 6px 0;
+  }
+
+  .form-box {
+    max-width: 324px;
+    border: 2px solid gray;
+    height: 403px;
+    border-radius: 5px;
+  }
+  .form-box .form-send-button {
+    margin: 8px 0 0 81px;
+  }
+  .form-box form {
+    flex-direction: column;
+    max-width: 302px;
+  }
+  .form-box #first-input, .form-box #second-input, .form-box #third-input, .form-box #text-box {
+    margin: 12px 0 0 12px;
+  }
+  .form-box .form-input-box {
+    margin: 0;
+  }
+  .form-box .form-txt-box {
+    margin: 0;
+  }
+
+  .details-box {
+    margin: 70px 0 0 0;
+    padding: 50px 0 0 0;
+  }
+
+  .details-box, .super-easy-to-customize-box {
+    flex-direction: column;
+  }
+
+  .two-phones-img {
+    position: absolute;
+    opacity: 0.4;
+    top: 17px;
+    right: 1%;
+  }
+
+  .up-left {
+    max-width: 391px;
+    margin: 63px 0 0 12px;
+  }
+
+  .the-price-space1, .the-price-space2, .the-price-space3, .the-price-space4 {
+    margin: 40px 13px 0 2px;
+  }
+}
+@media (max-width: 700px) {
+  .slider-author-avatar {
+    height: 58px;
+    width: 56px;
+  }
+
+  .slider-paragraph {
+    font-size: 18px;
+    max-width: 452px;
+  }
+
+  .iphone-down {
+    width: 631px;
+  }
+}
+@media (max-width: 612px) {
+  .iphone-down {
+    position: absolute;
+    margin: -23px 0 0 -65px;
+    opacity: 0.4;
+    width: 473px;
+  }
+
+  .beautiful-phone-images {
+    position: absolute;
+    opacity: 0.4;
+    margin: -100px 0 0 14px;
+    width: 217px;
+  }
+}
+@media (max-width: 596px) {
+  .two-phones-img {
+    display: none;
+  }
+
+  .responsive-block {
+    margin: 52px auto -39px auto;
+  }
+
+  .super-easy-box {
+    margin: 110px 0 0 32px;
+  }
+
+  .up-botton-box {
+    margin: 17px 0 10px 0;
+  }
+
+  .iphone-down {
+    margin: 0 0 0 -65px;
+    width: 375px;
+  }
+
+  .like-what-u-see-box {
+    flex-direction: column;
+  }
+  .like-what-u-see-box .ad-question {
+    font-size: 30px;
+  }
+
+  .question-buttons-box {
+    margin: 0 auto;
+  }
+
+  .the-price-space1, .the-price-space2, .the-price-space3, .the-price-space4 {
+    margin: 40px auto -14px auto;
+  }
+
+  .the-slider {
+    margin: 0 0 0 -44px;
+  }
+}
+@media (max-width: 459px) {
+  .list-of-features {
+    font-size: 29px;
+  }
+
+  .features-txt .fourth-double-underline:before {
+    left: 127px;
+  }
+  .features-txt .fourth-double-underline:after {
+    right: 129px;
+  }
+}
+@media (max-width: 353px) {
+  .the-slider .slick-dots {
+    margin: 365px -76px 0 2px;
+  }
+}
+@media (max-width: 343px) {
+  .form-box {
+    max-width: 276px;
+  }
+  .form-box #first-input, .form-box #second-input, .form-box #third-input, .form-box #text-box {
+    padding: 3px 0 0 6px;
+    max-width: 246px;
+  }
+  .form-box .form-send-button {
+    margin: 8px 0 0 58px;
+  }
+}
+@media (min-width: 1214px) {
+  .header-menu-hidden .navigation-menu {
+    top: -100%;
+  }
+}
+.first-background-box, .second-background-box {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.the-max-width {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1850px) {
+  .like-what-u-see-box {
+    padding: 0 0 0 211px;
+  }
+
+  .question-buttons-box .download-now {
+    margin: 0 0 0 21px;
+  }
+}
+@media (max-width: 950px) {
+  .features-devices-box .like-what-u-see-box {
+    flex-direction: column;
+  }
+  .features-devices-box .like-what-u-see-box .ad-question {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .features-devices-box .like-what-u-see-box .question-buttons-box {
+    margin: 32px auto 0 auto;
+  }
+}
+/*# sourceMappingURL=adaptation.css.map */
